@@ -6,4 +6,12 @@
 //  Copyright © 2018 Mateusz Małek. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIViewController {
+  override open func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+    if motion == .motionShake {
+      ThemeManager.shared.changeStyle()
+    }
+  }
+}

@@ -8,20 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		75476A50204E7A30007E3394 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A4F204E7A30007E3394 /* AppDelegate.swift */; };
-		75476A52204E7A30007E3394 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A51204E7A30007E3394 /* ViewController.swift */; };
+		75476A52204E7A30007E3394 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A51204E7A30007E3394 /* FirstViewController.swift */; };
 		75476A55204E7A30007E3394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75476A53204E7A30007E3394 /* Main.storyboard */; };
 		75476A57204E7A30007E3394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75476A56204E7A30007E3394 /* Assets.xcassets */; };
 		75476A5A204E7A30007E3394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75476A58204E7A30007E3394 /* LaunchScreen.storyboard */; };
+		75476A62204E7A3F007E3394 /* ExampleFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A61204E7A3F007E3394 /* ExampleFlowController.swift */; };
+		75476A66204E7A5C007E3394 /* HeroesUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A65204E7A5C007E3394 /* HeroesUseCases.swift */; };
+		75476A6B204E7E2F007E3394 /* HeroViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A6A204E7E2F007E3394 /* HeroViewModel.swift */; };
+		75476A6E204E7EEA007E3394 /* FlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A6D204E7EEA007E3394 /* FlowController.swift */; };
+		75476A70204E83FD007E3394 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A6F204E83FD007E3394 /* DetailViewController.swift */; };
+		75476A73204E859E007E3394 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A72204E859E007E3394 /* TitleLabel.swift */; };
+		75476A77204E9CC0007E3394 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A76204E9CC0007E3394 /* HeroView.swift */; };
+		75476A7A204EA385007E3394 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A79204EA385007E3394 /* UIView+Utils.swift */; };
+		75476A7C204EADB7007E3394 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A7B204EADB7007E3394 /* UIViewController+Utils.swift */; };
+		75476A7F204EB129007E3394 /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A7E204EB129007E3394 /* String+Utils.swift */; };
+		75476A81204EB5C6007E3394 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A80204EB5C6007E3394 /* ThemeManager.swift */; };
+		75476A85204EBEE1007E3394 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A84204EBEE1007E3394 /* Hero.swift */; };
+		75476A87204EBF5E007E3394 /* FakeDatabaseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A86204EBF5E007E3394 /* FakeDatabaseProvider.swift */; };
+		75476A89204EC446007E3394 /* Collection+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75476A88204EC446007E3394 /* Collection+Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		75476A4C204E7A30007E3394 /* SimpleArchitectureExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleArchitectureExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75476A4F204E7A30007E3394 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75476A51204E7A30007E3394 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75476A51204E7A30007E3394 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		75476A54204E7A30007E3394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75476A56204E7A30007E3394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75476A59204E7A30007E3394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75476A5B204E7A30007E3394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75476A61204E7A3F007E3394 /* ExampleFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFlowController.swift; sourceTree = "<group>"; };
+		75476A65204E7A5C007E3394 /* HeroesUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesUseCases.swift; sourceTree = "<group>"; };
+		75476A6A204E7E2F007E3394 /* HeroViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewModel.swift; sourceTree = "<group>"; };
+		75476A6D204E7EEA007E3394 /* FlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowController.swift; sourceTree = "<group>"; };
+		75476A6F204E83FD007E3394 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		75476A72204E859E007E3394 /* TitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		75476A76204E9CC0007E3394 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		75476A79204EA385007E3394 /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		75476A7B204EADB7007E3394 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		75476A7E204EB129007E3394 /* String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		75476A80204EB5C6007E3394 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		75476A84204EBEE1007E3394 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		75476A86204EBF5E007E3394 /* FakeDatabaseProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeDatabaseProvider.swift; sourceTree = "<group>"; };
+		75476A88204EC446007E3394 /* Collection+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +82,84 @@
 		75476A4E204E7A30007E3394 /* SimpleArchitectureExample */ = {
 			isa = PBXGroup;
 			children = (
+				75476A7D204EB0DF007E3394 /* FirstModule */,
+				75476A78204EA346007E3394 /* Utils */,
+				75476A71204E852B007E3394 /* Views */,
+				75476A6C204E7ED7007E3394 /* Module */,
+				75476A69204E7E21007E3394 /* Entitites */,
 				75476A4F204E7A30007E3394 /* AppDelegate.swift */,
-				75476A51204E7A30007E3394 /* ViewController.swift */,
+				75476A80204EB5C6007E3394 /* ThemeManager.swift */,
 				75476A53204E7A30007E3394 /* Main.storyboard */,
 				75476A56204E7A30007E3394 /* Assets.xcassets */,
 				75476A58204E7A30007E3394 /* LaunchScreen.storyboard */,
 				75476A5B204E7A30007E3394 /* Info.plist */,
 			);
 			path = SimpleArchitectureExample;
+			sourceTree = "<group>";
+		};
+		75476A69204E7E21007E3394 /* Entitites */ = {
+			isa = PBXGroup;
+			children = (
+				75476A84204EBEE1007E3394 /* Hero.swift */,
+				75476A86204EBF5E007E3394 /* FakeDatabaseProvider.swift */,
+			);
+			path = Entitites;
+			sourceTree = "<group>";
+		};
+		75476A6C204E7ED7007E3394 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				75476A6D204E7EEA007E3394 /* FlowController.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		75476A71204E852B007E3394 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				75476A72204E859E007E3394 /* TitleLabel.swift */,
+				75476A76204E9CC0007E3394 /* HeroView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75476A78204EA346007E3394 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				75476A79204EA385007E3394 /* UIView+Utils.swift */,
+				75476A7B204EADB7007E3394 /* UIViewController+Utils.swift */,
+				75476A7E204EB129007E3394 /* String+Utils.swift */,
+				75476A88204EC446007E3394 /* Collection+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		75476A7D204EB0DF007E3394 /* FirstModule */ = {
+			isa = PBXGroup;
+			children = (
+				75476A82204EBEB9007E3394 /* UseCases */,
+				75476A61204E7A3F007E3394 /* ExampleFlowController.swift */,
+				75476A6F204E83FD007E3394 /* DetailViewController.swift */,
+				75476A51204E7A30007E3394 /* FirstViewController.swift */,
+			);
+			path = FirstModule;
+			sourceTree = "<group>";
+		};
+		75476A82204EBEB9007E3394 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				75476A83204EBEC5007E3394 /* ViewModels */,
+				75476A65204E7A5C007E3394 /* HeroesUseCases.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		75476A83204EBEC5007E3394 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				75476A6A204E7E2F007E3394 /* HeroViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +234,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75476A52204E7A30007E3394 /* ViewController.swift in Sources */,
+				75476A52204E7A30007E3394 /* FirstViewController.swift in Sources */,
+				75476A77204E9CC0007E3394 /* HeroView.swift in Sources */,
+				75476A7F204EB129007E3394 /* String+Utils.swift in Sources */,
 				75476A50204E7A30007E3394 /* AppDelegate.swift in Sources */,
+				75476A73204E859E007E3394 /* TitleLabel.swift in Sources */,
+				75476A70204E83FD007E3394 /* DetailViewController.swift in Sources */,
+				75476A6E204E7EEA007E3394 /* FlowController.swift in Sources */,
+				75476A6B204E7E2F007E3394 /* HeroViewModel.swift in Sources */,
+				75476A66204E7A5C007E3394 /* HeroesUseCases.swift in Sources */,
+				75476A89204EC446007E3394 /* Collection+Utils.swift in Sources */,
+				75476A7A204EA385007E3394 /* UIView+Utils.swift in Sources */,
+				75476A87204EBF5E007E3394 /* FakeDatabaseProvider.swift in Sources */,
+				75476A7C204EADB7007E3394 /* UIViewController+Utils.swift in Sources */,
+				75476A85204EBEE1007E3394 /* Hero.swift in Sources */,
+				75476A62204E7A3F007E3394 /* ExampleFlowController.swift in Sources */,
+				75476A81204EB5C6007E3394 /* ThemeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+extension String: Error { // To throw strings as errors
+  
+}

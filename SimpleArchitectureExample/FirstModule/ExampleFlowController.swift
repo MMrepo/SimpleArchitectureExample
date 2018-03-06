@@ -8,10 +8,12 @@
 
 import UIKit
 
+// There should be only one FlowController per module
+
 public final class ExampleFlowController {
   public enum Scene {
     case start
-    case details(with:Hero)
+    case details(with:HeroViewModel)
     case previous
   }
   

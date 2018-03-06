@@ -10,35 +10,29 @@ import UIKit
 
 class FirstViewController: UIViewController {
   
-  private var flowCoordinator: ExampleFlowCoordinator!
+  private var FlowController: ExampleFlowController!
   private var useCases: HeroesUseCases!
   private var tableView: UITableView!
   private var dataSource: TableViewDataSource!
   private var delegate: TableViewDelegate!
   
-  func setup(withUseCases useCases: HeroesUseCases, flowCoordinator: ExampleFlowCoordinator) throws {
+  func setup(withUseCases useCases: HeroesUseCases, FlowController: ExampleFlowController) throws {
     self.useCases = useCases
-    self.flowCoordinator = flowCoordinator
+    self.FlowController = FlowController
   }
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
     
     self.tableView = UITableView()
     self.view.addSubview(tableView)
     self.view.centerAndSnapToBounds(tableView)
     self.dataSource = TableViewDataSource(useCases: useCases)
-    self.delegate = TableViewDelegate(flowCoordinator: flowCoordinator, useCases: useCases)
+    self.delegate = TableViewDelegate(FlowController: FlowController, useCases: useCases)
     
     tableView.register(UITableViewCell.self, forCellReuseIdentifier: "ExampleCell")
     tableView.dataSource = self.dataSource
     tableView.delegate = self.delegate
-  }
-  
-  override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
   }
 }
 
@@ -64,11 +58,11 @@ private class TableViewDataSource: NSObject, UITableViewDataSource {
 
 private class TableViewDelegate: NSObject, UITableViewDelegate {
   
-  private let flowCoordinator: ExampleFlowCoordinator
+  private let FlowController: ExampleFlowController
   private let useCases: HeroesUseCases
 
-  init(flowCoordinator: ExampleFlowCoordinator, useCases: HeroesUseCases) {
-    self.flowCoordinator = flowCoordinator
+  init(FlowController: ExampleFlowController, useCases: HeroesUseCases) {
+    self.FlowController = FlowController
     self.useCases = useCases
   }
   
@@ -79,6 +73,6 @@ private class TableViewDelegate: NSObject, UITableViewDelegate {
       return
     }
     
-    try? self.flowCoordinator.to(scene: .details(with: hero))
+    try? self.FlowController.to(scene: .details(with: hero))
   }
 }

@@ -1,5 +1,5 @@
 //
-//  FlowCoordinator.swift
+//  FlowController.swift
 //  SimpleArchitectureExample
 //
 //  Created by Mateusz Małek on 06.03.2018.
@@ -7,7 +7,6 @@
 //
 
 import Foundation
-
 
 public protocol FlowController {
   associatedtype SceneType
